@@ -110,6 +110,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Call the function to generate the list on page load
     generateVideoList();
-    // setYoutubeVideo("https://www.youtube.com/embed/mn-kkuS_GGA")
+    setYoutubeVideo("https://www.youtube.com/shorts/pNEaKPWa_58")
   
   });
