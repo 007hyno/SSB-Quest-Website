@@ -1,70 +1,70 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     const videoData = [
-      {
-        "url": "https://www.youtube.com/embed/GLClx8FOZ0s",
-        "title": "PPDT | What is PPDT | Steps to understand",
-        "description": "What is PPDT?",
-        "duration": "5min",
-        "image":"image1.webp",
-        "type":"ppdt"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"srt"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"gd"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"wat"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"ppdt"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"wat"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"srt"
-      },
-      {
-        "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
-        "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
-        "description": "Description about the following video here..",
-        "duration": "5min",
-        "image":"image2.webp",
-        "type":"ppdt"
-      }
+      // {
+      //   "url": "https://www.youtube.com/embed/GLClx8FOZ0s",
+      //   "title": "PPDT | What is PPDT | Steps to understand",
+      //   "description": "What is PPDT?",
+      //   "duration": "5min",
+      //   "image":"image1.webp",
+      //   "type":"ppdt"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"srt"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"gd"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"wat"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"ppdt"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"wat"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"srt"
+      // },
+      // {
+      //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
+      //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
+      //   "description": "Description about the following video here..",
+      //   "duration": "5min",
+      //   "image":"image2.webp",
+      //   "type":"ppdt"
+      // }
       // Add more video objects here following the same format
     ];
   
@@ -110,6 +110,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Call the function to generate the list on page load
     generateVideoList();
-    setYoutubeVideo("https://www.youtube.com/embed/mn-kkuS_GGA")
+    // setYoutubeVideo("https://www.youtube.com/embed/mn-kkuS_GGA")
   
   });
