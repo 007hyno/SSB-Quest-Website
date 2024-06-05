@@ -70,8 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
     function setYoutubeVideo(url) {
       const embedElement = document.querySelector(".video-container");
-      embedElement.innerHTML = `<iframe id="youtube-video" width="560" height="315" src="${url}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      embedElement.innerHTML = `<iframe id="youtube-video" width="560" height="315" src="${url}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     }
+  
     function generateVideoList() {
     ppdt();
     srt();
