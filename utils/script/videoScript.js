@@ -1,6 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     const videoData = [
+      {
+        "url": "https://www.youtube.com/embed/pNEaKPWa_58",
+        "title": "FAQ: Interview",
+        "description": "Lying in the SSB interview Here's why it's a terrible idea?",
+        "duration": "25sec",
+        "image":"faq.webp",
+        "type":"faq"
+      },
       // {
       //   "url": "https://www.youtube.com/embed/GLClx8FOZ0s",
       //   "title": "PPDT | What is PPDT | Steps to understand",
