@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
         "image":"faq.webp",
         "type":"faq"
       },
-      // {
-      //   "url": "https://www.youtube.com/embed/GLClx8FOZ0s",
-      //   "title": "PPDT | What is PPDT | Steps to understand",
-      //   "description": "What is PPDT?",
-      //   "duration": "5min",
-      //   "image":"image1.webp",
-      //   "type":"ppdt"
-      // },
+      {
+        "url": "https://www.youtube.com/embed/VlTHgrOTDgo",
+        "title": "Top 5 Mistakes in PPDT Test",
+        "description": "Top 5 Mistakes in SSB PPDT Test & How to Overcome Them | Essential Tips for Success",
+        "duration": "2:30 min",
+        "image":"faq2.webp",
+        "type":"ppdt"
+      },
       // {
       //   "url": "https://www.youtube.com/embed/mn-kkuS_GGA",
       //   "title": "Hari Hari | DAKAIT X Aniket Raturi X 2FISTD | Nature Visuals",
@@ -119,6 +119,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Call the function to generate the list on page load
     generateVideoList();
-    setYoutubeVideo("https://www.youtube.com/embed/vwMGy1OX7Ho")
+    setYoutubeVideo("https://www.youtube.com/embed/VlTHgrOTDgo")
   
   });
